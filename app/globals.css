@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #080808;
+  --surface: #0f0f0f;
+  --card: #141414;
+  --white: #f0ece6;
+  --muted: #4a4a4a;
+  --muted2: #2a2a2a;
+  --accent: #f0ece6;
+  --border: #1e1e1e;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--white); overflow-x: hidden; font-weight: 300; }
