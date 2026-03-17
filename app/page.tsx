@@ -169,6 +169,9 @@ export default function Home() {
           <FadeUp>
             <h2 style={{ ...syne, fontSize: "clamp(2rem,3.5vw,3rem)", fontWeight: 700, marginBottom: "1rem" }}>프로젝트 문의</h2>
             <p style={{ fontSize: "0.88rem", color: "#555", lineHeight: 1.8, marginBottom: "3rem" }}>24시간 내 답변드립니다.</p>
+            <a href="https://open.kakao.com/o/seXPuXli" target="_blank" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "#FEE500", color: "#000", padding: "0.75rem 1.5rem", fontSize: "0.85rem", textDecoration: "none", fontFamily: "'Syne',sans-serif", fontWeight: 600, marginBottom: "3rem" }}>
+              카카오톡으로 문의하기
+            </a>
           </FadeUp>
           <FadeUp delay={0.1}>
             <form 
